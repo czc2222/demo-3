@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+body {
+    background-color: white;
+}
+.rainbow {
+    height: 200px;
+    width: 400px;
+    
+    
+}
+.rainbow >div {
+    background:hsl(0, 80%, 50%);
+    
+    height: 380px;
+    margin: 10px;
+    border-radius:50%;
+}
+.rainbow >div >div {
+    background:hsl(40, 100%, 51%);
+    
+    height: 360px;
+    margin: 10px;
+    border-radius:50%;
+}
+.rainbow >div >div>div {
+    background:hsl(55, 98%, 50%);
+    
+    height: 340px;
+    margin: 10px;
+    border-radius:50%;
+}
+.rainbow >div >div>div>div {
+    background:hsl(106, 98%, 50%);
+    
+    height: 320px;
+    margin: 10px;
+    border-radius:50%;
+}
+.rainbow >div >div>div>div>div {
+    background:hsl(143, 49%, 38%);
+    
+    height: 300px;
+    margin: 10px;
+    border-radius:50%;
+}
+.rainbow >div >div>div>div>div>div {
+    background:hsl(207, 98%, 50%);
+    
+    height: 280px;
+    margin: 10px;
+    border-radius:50%;
+}
+.rainbow >div >div>div>div>div>div>div {
+    background:hsl(290, 98%, 50%);
+    
+    height: 260px;
+    margin: 10px;
+    border-radius:50%;
+}
+.rainbow >div >div>div>div>div>div>div>div {
+    background:white;
+    
+    height: 240px;
+    margin: 10px;
+    border-radius:50%;
+}
